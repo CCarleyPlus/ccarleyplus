@@ -21,7 +21,7 @@ print::output(String: "f");
 Handling Errors
 
 ```sh
-.catch(String: Error_Param) -> print::output -> (String: Error_Param);
+.catch(String: Error_Param) -> print::output(String: Error_Param);
 ```
 `.catch` is used to catch the error then you must pass the type and variable. Once passed you can output it by doing `.catch(String: Error_Param-> print::output -> (String: Error_Param);` 
 

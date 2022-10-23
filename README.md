@@ -14,7 +14,7 @@ Varibles which are not used will not be stored in the memory to maximize perform
 # Example
 
 ```sh
-print::output -> (String: "f");
+print::output(String: "f");
 ```
 `print::output` is used to display the variable in the output, once you define the function you must include a STRING , INT. Semicolons is a need in this language which is the breakpoint.
 
